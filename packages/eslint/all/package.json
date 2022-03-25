@@ -1,0 +1,28 @@
+{
+    "name": "@yzydeveloper/eslint-config",
+    "version": "0.1.0",
+    "description": "My ESLint Config.",
+    "keywords": [
+        "eslint",
+        "config"
+    ],
+    "license": "MIT",
+    "author": "yzydeveloper",
+    "files": [
+        "index.js"
+    ],
+    "main": "index.js",
+    "peerDependencies": {
+        "eslint": ">=7.22.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@yzydeveloper/eslint-config-vue": "^0.1.0"
+    },
+    "devDependencies": {
+        "@yzydeveloper/eslint-config-basic": "^0.1.0",
+        "eslint": "^8.11.0"
+    }
+}

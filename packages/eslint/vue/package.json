@@ -1,0 +1,29 @@
+{
+    "name": "@yzydeveloper/eslint-config-vue",
+    "version": "0.1.0",
+    "description": "My ESLint Config For Vue.",
+    "keywords": [
+        "eslint",
+        "config",
+        "vue"
+    ],
+    "license": "MIT",
+    "author": "yzydeveloper",
+    "files": [
+        "index.js"
+    ],
+    "main": "index.js",
+    "peerDependencies": {
+        "eslint": ">=7.22.0"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "dependencies": {
+        "@yzydeveloper/eslint-config-ts": "^0.1.0",
+        "eslint-plugin-vue": "7.7.0"
+    },
+    "devDependencies": {
+        "eslint": "^8.11.0"
+    }
+}

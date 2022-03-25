@@ -1,7 +1,6 @@
 {
     "name": "@yzydeveloper/lint",
     "private": true,
-    "version": "0.0.1",
     "description": "My custom lint config.",
     "license": "MIT",
     "repository": {
@@ -9,6 +8,13 @@
         "url": "https://github.com/yzydeveloper/my-lint"
     },
     "author": "yzydeveloper",
-    "scripts": {},
-    "devDependencies": {}
+    "scripts": {
+        "lint": "npx eslint --ext .js,.json,.vue --fix .",
+        "release": "lerna publish --conventional-commits"
+    },
+    "devDependencies": {
+        "@yzydeveloper/eslint-config": "*",
+        "lerna": "^4.0.0",
+        "typescript": "^4.3.4"
+    }
 }
