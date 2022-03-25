@@ -1,2 +1,2 @@
-# eslint-config
+# lint-config
 My custom eslint config.
