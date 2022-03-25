@@ -2,5 +2,6 @@
     "packages": [
         "packages/*",
         "packages/eslint/*"
-    ]
+    ],
+    "version": "0.1.0"
 }
