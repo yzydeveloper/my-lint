@@ -10,7 +10,7 @@
     "author": "yzydeveloper",
     "scripts": {
         "lint": "npx eslint --ext .js,.json,.vue --fix .",
-        "release": "lerna publish --conventional-commits"
+        "release": "lerna publish"
     },
     "devDependencies": {
         "@yzydeveloper/eslint-config": "*",
