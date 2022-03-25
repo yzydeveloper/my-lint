@@ -1,6 +1,6 @@
 {
     "name": "@yzydeveloper/eslint-config-basic",
-    "version": "0.1.0",
+    "version": "0.1.1",
     "description": "My ESLint Config For Basic.",
     "keywords": [
         "eslint",
@@ -23,6 +23,7 @@
         "access": "public"
     },
     "dependencies": {
+        "eslint-config-airbnb-base": "^15.0.0",
         "eslint-config-standard": "^16.0.3",
         "eslint-plugin-eslint-comments": "^3.2.0",
         "eslint-plugin-html": "^6.1.2",
@@ -31,7 +32,6 @@
         "eslint-plugin-node": "^11.1.0",
         "eslint-plugin-promise": "^4.3.1",
         "eslint-plugin-yml": "^0.8.1",
-        "eslint-config-airbnb-base": "^15.0.0",
         "jsonc-eslint-parser": "^1.0.1",
         "yaml-eslint-parser": "^0.3.2"
     },
