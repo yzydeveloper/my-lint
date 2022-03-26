@@ -72,6 +72,9 @@ module.exports = {
     rules: {
         'no-debugger': 'off',
         'no-console': 'off',
+        "no-shadow": "off",
+        "no-loop-func": "off",
+        "no-return-await": "off",
         'template-curly-spacing': 'off',
         "camelcase": "off",
         "consistent-return": "off",
