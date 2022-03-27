@@ -19,10 +19,11 @@ module.exports = {
         'vue/no-parsing-error': [2, { 'x-invalid-end-tag': false }],
         'vue/html-indent': ['error', 4],
         'vue/max-attributes-per-line': ['error', {
-            singleline: 1,
+            singleline: {
+                max: 1
+            },
             multiline: {
-                max: 1,
-                allowFirstLine: true
+                max: 1
             }
         }],
         'vue/html-self-closing': 'off',
