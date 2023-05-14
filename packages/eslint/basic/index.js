@@ -90,7 +90,11 @@ module.exports = {
         semi: ['error', 'never'],
         'comma-dangle': ['error', 'only-multiline'],
         'no-underscore-dangle': 'off',
-        'space-before-function-paren': [0, 'always'],
+        "space-before-function-paren": ["error", {
+            "named": "never",
+            "anonymous": "never",
+            "asyncArrow": "always"
+        }],
         'keyword-spacing': 'off',
         'no-new': 'off',
         'default-case': 'off',
