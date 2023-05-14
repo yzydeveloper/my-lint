@@ -1,6 +1,6 @@
 {
     "name": "@yzydeveloper/eslint-config",
-    "version": "0.1.4",
+    "version": "0.1.5",
     "description": "My ESLint Config.",
     "keywords": [
         "eslint",
@@ -19,10 +19,10 @@
         "access": "public"
     },
     "dependencies": {
-        "@yzydeveloper/eslint-config-vue": "^0.1.4"
+        "@yzydeveloper/eslint-config-vue": "^0.1.5"
     },
     "devDependencies": {
-        "@yzydeveloper/eslint-config-basic": "^0.1.2",
+        "@yzydeveloper/eslint-config-basic": "^0.1.5",
         "eslint": "^8.11.0"
     }
 }
