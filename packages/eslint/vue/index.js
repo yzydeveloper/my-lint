@@ -31,5 +31,18 @@ module.exports = {
         'vue/require-default-prop': 'off',
         'vue/require-explicit-emits': 'error',
         'vue/attribute-hyphenation': [2, 'never', { ignore: ['custom-prop'] }],
+         "vue/define-macros-order": [
+            "error",
+            {
+                "order": [
+                "defineOptions",
+                "defineProps",
+                "defineEmits",
+                "defineSlots"
+                ]
+            }
+        ],
+        "vue/multi-word-component-names": "off",
+        "vue/require-explicit-emits": "error"
     },
 }
