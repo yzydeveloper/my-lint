@@ -30,6 +30,7 @@ module.exports = {
         'vue/html-self-closing': 'off',
         'vue/html-closing-bracket-newline': 'off',
         'vue/require-default-prop': 'off',
+        'vue/require-explicit-emits': 'error',
         'vue/attribute-hyphenation': [2, 'never', { ignore: ['custom-prop'] }],
 
         // === 以下为追加的规则 ===
@@ -50,6 +51,7 @@ module.exports = {
         'vue/dot-notation': ['error', { allowKeywords: true }],
         'vue/eqeqeq': ['error', 'smart'],
         'vue/max-attributes-per-line': 'off', // 已在上面定义，这里关闭避免冲突
+        'vue/multi-word-component-names': 'off',
         'vue/multi-word-component-names': 'off',
         'vue/no-dupe-keys': 'off',
         'vue/no-empty-pattern': 'error',
