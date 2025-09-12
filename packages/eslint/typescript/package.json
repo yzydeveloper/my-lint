@@ -14,7 +14,7 @@
     ],
     "main": "index.js",
     "peerDependencies": {
-        "eslint": ">=9.35.0",
+        "eslint": ">=8.57.1",
         "typescript": ">=5.9.2"
     },
     "publishConfig": {
@@ -26,6 +26,6 @@
         "@yzydeveloper/eslint-config-basic": "^0.2.0"
     },
     "devDependencies": {
-        "eslint": "^9.35.0"
+        "eslint": "^8.57.1"
     }
 }
