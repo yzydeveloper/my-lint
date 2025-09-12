@@ -13,7 +13,7 @@
     ],
     "main": "index.js",
     "peerDependencies": {
-        "eslint": ">=8.57.1"
+        "eslint": ">=7.22.0"
     },
     "publishConfig": {
         "access": "public"
@@ -22,7 +22,7 @@
         "@yzydeveloper/eslint-config-vue": "^0.2.1"
     },
     "devDependencies": {
-        "@yzydeveloper/eslint-config-basic": "^0.2.1",
-        "eslint": "^8.57.1"
+        "@yzydeveloper/eslint-config-basic": "^0.1.5",
+        "eslint": "^8.11.0"
     }
 }

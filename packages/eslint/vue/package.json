@@ -14,17 +14,16 @@
     ],
     "main": "index.js",
     "peerDependencies": {
-        "eslint": ">=8.57.1"
+        "eslint": ">=7.22.0"
     },
     "publishConfig": {
         "access": "public"
     },
     "dependencies": {
-        "@yzydeveloper/eslint-config-ts": "^0.2.1",
-        "eslint-plugin-vue": "^10.4.0",
-        "eslint-plugin-vuejs-accessibility": "^2.4.1"
+        "@yzydeveloper/eslint-config-ts": "^0.1.5",
+        "eslint-plugin-vue": "^8.5.0"
     },
     "devDependencies": {
-        "eslint": "^8.57.1"
+        "eslint": "^8.11.0"
     }
 }
