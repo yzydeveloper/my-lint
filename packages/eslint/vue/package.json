@@ -1,6 +1,6 @@
 {
     "name": "@yzydeveloper/eslint-config-vue",
-    "version": "0.1.5",
+    "version": "0.2.0",
     "description": "My ESLint Config For Vue.",
     "keywords": [
         "eslint",
@@ -20,7 +20,7 @@
         "access": "public"
     },
     "dependencies": {
-        "@yzydeveloper/eslint-config-ts": "^0.1.5",
+        "@yzydeveloper/eslint-config-ts": "^0.2.0",
         "eslint-plugin-vue": "^10.4.0",
         "eslint-plugin-vuejs-accessibility": "^2.4.1"
     },
