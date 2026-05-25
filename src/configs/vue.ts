@@ -140,7 +140,7 @@ export async function vue(
                 'vue/dot-notation': ['error', { allowKeywords: true }],
                 'vue/eqeqeq': ['error', 'smart'],
                 'vue/html-closing-bracket-newline': 'off',
-                'vue/html-indent': ['error', indent],
+                'vue/html-indent': ['error', typeof indent === 'number' ? indent : indent === 'tab' ? 'tab' : 2],
                 'vue/html-quotes': ['error', 'double'],
                 'vue/html-self-closing': 'off',
                 'vue/max-attributes-per-line': ['error', {

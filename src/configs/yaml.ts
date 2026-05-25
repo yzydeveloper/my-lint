@@ -58,9 +58,9 @@ export async function yaml(
                             'yaml/flow-mapping-curly-spacing': 'error',
                             'yaml/flow-sequence-bracket-newline': 'error',
                             'yaml/flow-sequence-bracket-spacing': 'error',
-                            'yaml/indent': ['error', typeof indent === 'number' ? indent : 2],
+                            'yaml/indent': ['error', typeof indent === 'number' ? indent : indent === 'tab' ? 'tab' : 2],
                             'yaml/key-spacing': 'error',
-                            'yaml/no-tab-indent': 'error',
+                            'yaml/no-tab-indent': indent === 'tab' ? 'off' : 'error',
                             'yaml/quotes': ['error', { avoidEscape: true, prefer: quotes === 'backtick' ? 'single' : quotes }],
                             'yaml/spaced-comment': 'error',
                         }
